@@ -1,0 +1,12 @@
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\bin\Debug\net5.0\ServiceContracts.deps.json
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\bin\Debug\net5.0\ServiceContracts.dll
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\bin\Debug\net5.0\ServiceContracts.pdb
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ServiceContracts.csproj.AssemblyReference.cache
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ServiceContracts.AssemblyInfoInputs.cache
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ServiceContracts.AssemblyInfo.cs
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ServiceContracts.dll
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\refint\ServiceContracts.dll
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ServiceContracts.pdb
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceContracts\obj\Debug\net5.0\ref\ServiceContracts.dll
