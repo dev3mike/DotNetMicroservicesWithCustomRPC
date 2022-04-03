@@ -1,0 +1,15 @@
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\bin\Debug\net5.0\ServiceCommunication.deps.json
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\bin\Debug\net5.0\ServiceCommunication.dll
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\bin\Debug\net5.0\ServiceCommunication.pdb
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\bin\Debug\net5.0\ServiceContracts.dll
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\bin\Debug\net5.0\ServiceContracts.pdb
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.csproj.AssemblyReference.cache
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.AssemblyInfoInputs.cache
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.AssemblyInfo.cs
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.csproj.CoreCompileInputs.cache
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.csproj.CopyComplete
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.dll
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\refint\ServiceCommunication.dll
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ServiceCommunication.pdb
+C:\Projects\MicroServicesWithCustomRPC\MicreservciesWithCustomRPC\ServiceCommunication\obj\Debug\net5.0\ref\ServiceCommunication.dll

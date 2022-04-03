@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "04tRGmj2fxi6dVJm6UX4MASewZTu0mN9Qw0VynyOIsb8dyZevOVIajbg7s5YaxJNNMFitWhKo4R+fqTURjVmmg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\MicroServicesWithCustomRPC\\MicreservciesWithCustomRPC\\ServiceCommunication\\ServiceCommunication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\masou\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
