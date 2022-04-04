@@ -29,9 +29,7 @@ namespace Gateway
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
-            var serviceFinder = new ServiceFinder();
-            services.AddTransient<IServiceFinder>(sp => serviceFinder);
+            services.AddSingleton<IHttpCommunication, HttpCommunication>();
             services.RegisterServices();
             services.AddControllers();
             services.AddRouting(options => options.LowercaseUrls = true);

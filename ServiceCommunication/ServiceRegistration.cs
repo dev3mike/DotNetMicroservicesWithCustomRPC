@@ -14,7 +14,7 @@ namespace ServiceCommunication
         public static IServiceCollection RegisterServices(this IServiceCollection services)
         {
             // Service Communications
-            services.AddServiceCommunication<IUserService>(serviceName: "UserService", servicePort: "1234");
+            services.AddServiceCommunication<IUserService>(serviceName: "UserService", servicePort: "15600");
 
             return services;
         }

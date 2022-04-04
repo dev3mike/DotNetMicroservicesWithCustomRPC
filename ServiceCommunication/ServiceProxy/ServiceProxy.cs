@@ -1,7 +1,10 @@
-﻿using ServiceCommunication.Abstractions;
+﻿using Newtonsoft.Json;
+using ServiceCommunication.Abstractions;
+using ServiceCommunication.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +16,7 @@ namespace ServiceCommunication.ServiceProxy
 
         public ServiceProxy(IHttpCommunication http)
         {
-            _http = http;
+            _http = http ?? throw new ArgumentNullException(nameof(http));
         }
 
         public T ExecuteValueType<T>(string serviceName, string servicePort, string methodName, string typeName, Dictionary<string, object> inputs)
@@ -38,7 +41,7 @@ namespace ServiceCommunication.ServiceProxy
         {
             try
             {
-                var serviceUri = "localhost"; // Todo: Should be moved to ServiceFinder service and fetched based on serviceName
+                var serviceUri = "http://localhost"; // Todo: Should be moved to ServiceFinder service and fetched based on serviceName
 
                 // Create a http request to the proxy controller injected into each service
                 var type = Type.GetType(typeName);
@@ -47,33 +50,10 @@ namespace ServiceCommunication.ServiceProxy
                 var result = await _http.SendRequest($"{serviceUri}:{servicePort}/proxy", "post", type, payload: inputs);
                 return result;
             }
-            catch (Exception e)
+            catch (ServiceException e)
             {
-                if (e.Message.Contains("exception_")) // Known service exception has been thrown
-                {
-                    Exception exception = null;
-                    try
-                    {
-                        // This is a very ugly way to get the error parts but will have to do for now
-                        //var index = e.Message.IndexOf(": exception_");
-                        //var statusCodeString = e.Message.Substring(0, index);
-                        //var statusCode = (HttpStatusCode)Enum.Parse(typeof(HttpStatusCode), statusCodeString);
-                        //var message = e.Message.Replace($"{statusCodeString}: exception_", "");
-                        //exception = _serializer.Deserialize<Exception>(message, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore, TypeNameHandling = TypeNameHandling.All });
-                    }
-                    catch (ArgumentException)
-                    {
-                        throw;
-                    }
-                    catch (OverflowException)
-                    {
-                        throw;
-                    }
-                    if (exception == null)
-                        throw;
+                // Log service exceptions here
 
-                    throw exception;
-                }
                 throw;
             }
         }

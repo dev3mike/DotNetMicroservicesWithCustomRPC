@@ -9,7 +9,7 @@ namespace ServiceCommunication
 {
     public class ProxyClassGenerator
     {
-        internal static T GenerateClass<T>(HttpCommunication httpCommunication, string serviceName, string servicePort)
+        internal static T GenerateClass<T>(IHttpCommunication httpCommunication, string serviceName, string servicePort)
         {
             var t = typeof(T);
             var inheritedTypes = t.GetInterfaces();
@@ -17,7 +17,7 @@ namespace ServiceCommunication
             return CreateServiceClass<T>(httpCommunication, serviceName, servicePort, inheritedTypes);
         }
 
-        private static T CreateServiceClass<T>(HttpCommunication httpCommunication, string serviceName, string servicePort, Type[] inheritedTypes)
+        private static T CreateServiceClass<T>(IHttpCommunication httpCommunication, string serviceName, string servicePort, Type[] inheritedTypes)
         {
             try
             {
